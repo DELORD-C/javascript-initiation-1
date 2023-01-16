@@ -9,11 +9,11 @@
 </head>
 <body>
     <div>
-        <div class='elem rouge'></div><!--Fade Out / Fade In-->
-        <div class='elem bleue'></div><!--Rendre plus petit / Rendre plus grand -->
-        <div class='elem verte'></div><!--Decalage à droite / Décalage à gauche-->
-        <div class='elem violette'></div><!--Rotation (180deg) / Rotation inversée-->
-        <div class='elem orange'></div><!--Filtre de couleur balance de gris / Retrait du filtre-->
+        <div class='elem rouge' onmouseenter="fadeOut(event)" onmouseleave="fadeIn(event)"></div><!--Fade Out / Fade In-->
+        <div class='elem bleue' onmouseenter="scaleOut(event)" onmouseleave="scaleIn(event)"></div><!--Rendre plus petit / Rendre plus grand -->
+        <div class='elem verte' onmouseenter="strafeLeft(event)" onmouseleave="strafeRight(event)"></div><!--Decalage à droite / Décalage à gauche-->
+        <div class='elem violette' onmouseenter="rotateLeft(event)" onmouseleave="rotateRight(event)"></div><!--Rotation (180deg) / Rotation inversée-->
+        <div class='elem orange' onmouseenter="greyScaleOn(event)" onmouseleave="greyScaleOff(event)"></div><!--Filtre de couleur balance de gris / Retrait du filtre-->
     </div>
     <script src="script.js"></script>
 </body>
