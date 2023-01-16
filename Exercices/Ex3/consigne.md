@@ -1,4 +1,4 @@
-# Exercice 1 : Sapin
+# Exercice 3 : Sapin
 
 Dans script.js :
 

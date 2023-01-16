@@ -1,4 +1,4 @@
-# Exercice 1 : Chaine ?
+# Exercice 2 : Chaine
 
 Dans script.js :
 
