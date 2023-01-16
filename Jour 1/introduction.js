@@ -55,3 +55,9 @@ while (n < 3) {
     console.log(n);
     n++;
 }
+
+function nomDeFonction (parametre1, parametre2 = 0) {
+    console.log(parametre1 + parametre2);
+}
+
+nomDeFonction('test');
