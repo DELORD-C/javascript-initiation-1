@@ -17,10 +17,17 @@ function testAlert() {
 
 function testPrompt() {
     let answer = prompt("Comment allez-vous ?");
-    console.log(answer);
+    if (answer != null && answer.length > 0) {
+        let paragraphe = document.createElement('p');
+        paragraphe.innerHTML = answer;
+        let h1 = document.querySelector('h1');
+        h1.after(paragraphe);
+    }
 }
 
 function testConfirm() {
-    let answer = confirm("Voulez-vous vriament ne rien faire ?");
-    console.log(answer);
+    if (confirm("Voulez-vous vraiment supprimer le paragraphe ?")) {
+        let paragraphe = document.querySelector('p');
+        paragraphe.remove();
+    }
 }
