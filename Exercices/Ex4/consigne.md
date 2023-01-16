@@ -2,7 +2,7 @@
 
 Dans index.html :
 
-Créer un élément `<h1>` dans le body (ex : `<h1>Exercice 4</p>`)
+Créer un élément `<h1>` dans le body (ex : `<h1>Exercice 4</h1>`)
 
 Créer un élément `<p>` dans le body et lui affecter un id (ex : `<p id='id'>Test</p>`)
 
@@ -13,10 +13,12 @@ Dans script.js :
 Créez deux variables dans lesquelles vous stockerez respectivement votre élement `<p>`
 et votre élement `<button>`
 
-Avec l'attribut onclick html5, faites en sorte que :
+Avec l'attribut onclick et onmousein html5, faites en sorte que :
 
 - Lorsque l'on clique sur le boutton, le texte de l'élement `<p>` change de taille de police.
   
 - Lorsqu'on passe la souris sur le titre h1, celui-ci disparait.
 
 (au besoin : cherchez sur google comment alterer le css d'un élément en js)
+
+Bonus : lorsque l'on enleve la souris du titre h1, celui-ci réapparait.
