@@ -13,7 +13,7 @@ Dans script.js :
 Créez deux variables dans lesquelles vous stockerez respectivement votre élement `<p>`
 et votre élement `<button>`
 
-Avec l'attribut onclick et onmousein html5, faites en sorte que :
+Avec l'attribut onclick et onmouseover html5, faites en sorte que :
 
 - Lorsque l'on clique sur le boutton, le texte de l'élement `<p>` change de taille de police.
   
